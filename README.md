@@ -1,6 +1,16 @@
 # Employee-Workforce-Analysis-Python-
 ----
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Data Sources](#data-source)
+- [Tools & Libraries Used](#tools--libraries-used)
+- [Data Cleaning & Preparation](#data-cleaning--preparation)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Data Analysis Summary](#data-analysis-summary)
+- [Results / Findings](result---findings)
+- [Recommendations](#recommendations)
+
 ### Project Overview
 
 This project analyzes employee workforce data using Python to uncover insights related to retention, compensation, demographics, departmental performance, and overall workforce stability. Using the Pandas, NumPy, Matplotlib, and Seaborn libraries, the analysis transforms raw HR data into clear insights that support data-driven decision-making in employee management, recruitment, compensation planning, and retention strategy.
@@ -103,7 +113,7 @@ plt.show()
 - Most employees fall into Entry and Associate job levels
 
 
-### Business Question 2: Which departments have the highest turnover?
+#### Business Question 2: Which departments have the highest turnover?
 
 ![3](https://github.com/user-attachments/assets/04758206-1b1f-4810-acfc-898e6148126e)
 
@@ -114,7 +124,7 @@ plt.show()
 
 - IT and Finance show the lowest turnover, indicating stability
 
-### Business Question 3: How does salary vary by department and job role?
+#### Business Question 3: How does salary vary by department and job role?
 
  
  
@@ -131,12 +141,8 @@ plt.show()
 
 - Entry and Associate earn below $30,000
 
-### Business Q5: Does location influence retention (tenure)?
-
-Tenure is consistent across locations (5.3–5.5 years)
-
-Location has minimal impact on employee retention
-### Business Question 4: What is the correlation between job level, age, and salary?
+ 
+#### Business Question 4: What is the correlation between job level, age, and salary?
 
 ![7](https://github.com/user-attachments/assets/847c7c8d-aa5a-481a-87ee-f9af21365e16)
  
@@ -147,7 +153,7 @@ Location has minimal impact on employee retention
 
 - Salary progression is driven by job level, not age
 
-### Business Question 5: Does location influence retention (tenure)?
+#### Business Question 5: Does location influence retention (tenure)?
 
 ![8](https://github.com/user-attachments/assets/51adf587-8d3c-40d1-b129-1b3fb72ec59e)
 
